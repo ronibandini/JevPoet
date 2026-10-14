@@ -1,24 +1,16 @@
-# 🎭 Jev Poet
+# Jev Poet
 
 ### They say Jev cannot generate text, so who wrote this poem?
 
 **Jev Poet is an experiment in making a model do something it wasn't designed to do: create poetry.**
 
-Instead of asking Jev to write a poem from scratch, Python generates possibilities and Jev decides which ones deserve to stay.
-
-Python proposes. Jev judges. The poem emerges from the choices.
-
 ## 💡 The idea
-
-Jev is used as a selection mechanism inside a small generative poetry system. It doesn't need to invent the text directly. It only needs to recognize which combinations of words, images, and phrases are worth keeping.
 
 The experiment combines three ingredients:
 
 - 🎲 **Randomness** — Python creates unexpected combinations.
 - 🧩 **Structure** — sentence templates provide a framework for the words.
 - 🧠 **Judgment** — Jev evaluates alternatives and decides what to keep or discard.
-
-The goal is not conventional storytelling. It is to discover whether unexpected associations can develop into something that feels like a poem.
 
 ## 📚 Three dictionaries
 
@@ -42,7 +34,7 @@ A randomly generated candidate might be:
 
 > The frozen eel sleeps beneath the lighthouse.
 
-Another might be completely absurd. That is intentional: Python generates possibilities, not finished poetry.
+Another might be completely absurd. That is intentional.
 
 ## 🔄 How it works
 
@@ -118,11 +110,6 @@ The experiment includes two approaches: `words` mode, which lets Jev choose word
 
 Can a model contribute to a creative process without being asked to perform the task in the conventional way it was designed for?
 
-Jev doesn't have to write the poem directly. Python generates the possibilities, and Jev makes the selections. The final result emerges from the interaction between algorithmic chance and model-based judgment.
-
-The system is neither entirely random nor entirely controlled. Sometimes the result is awkward. Sometimes it is nonsense. Occasionally, a combination of words becomes unexpectedly memorable.
-
-That is the point of the experiment.
 
 ---
 
